@@ -1,0 +1,22 @@
+/* Footer Para  */
+
+footer p {
+    width: 87px;
+    font-size: 0.3rem;
+}
+
+
+
+/* Footer Section  */
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 0.5rem;
+    padding: 19px 0px;
+    margin: 0;
+    position: relative;
+    bottom: -21px;
+}

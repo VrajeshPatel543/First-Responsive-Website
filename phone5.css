@@ -1,0 +1,188 @@
+/* Navigation Bar  */
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin: 10px auto;
+}
+
+.list-items a {
+    font-size: 0.4rem;
+    padding: 1px 7px;
+}
+
+.navbar {
+    height: 165px;
+}
+
+
+
+
+/* Home Section  */
+
+.heading {
+    width: 50%;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+#home {
+    height: 110px;
+}
+
+#home h1 {
+    font-size: 0.5rem;
+    width: 57px;
+    margin-top: -20px;
+}
+
+#home :nth-child(2) {
+    margin: 0px 10px;
+    margin-top: 5px;
+    font-size: 0.3rem;
+    width: 120px;
+}
+
+#home :nth-child(3) {
+    margin: 0px 10px;
+    font-size: 0.3rem;
+    width: 120px;
+}
+
+#btn {
+    width: 45px;
+    padding: 2px 3px;
+    font-size: 0.3rem;
+    margin: 8px 5px;
+}
+
+#home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#home::before {
+    height: 276px;
+}
+
+
+
+/* Services Section  */
+
+#services {
+    flex-direction: column;
+    width: 99px;
+    margin: auto;
+}
+
+
+#services-container h2 {
+    width: 73px;
+    margin-top: -22px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+.boxs img {
+    width: 30px;
+}
+
+.boxs h3 {
+    font-size: 0.4rem;
+    margin: 2px 0px;
+}
+
+.boxs p {
+    font-size: 0.3rem;
+}
+
+.boxs {
+    margin: 2px auto;
+    width: 63px;
+}
+
+#services-container {
+    height: 336px;
+}
+
+
+
+/* Clients Section  */
+
+#client {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    margin: auto;
+}
+
+#client-container h2 {
+    text-align: center;
+    margin: 6px auto;
+    width: 80px;
+    margin-top: 0;
+    padding-top: 7px;
+    font-size: 1rem;
+}
+
+#client-container {
+    height: 150px;
+    width: 100%;
+}
+
+#client-container::before {
+    height: 150px;
+}
+
+#client img {
+    width: 40px;
+    margin: 2px 5px;
+}
+
+
+
+/* Contact Section  */
+
+#contact-container {
+    margin-top: 30px;
+    height: 453px;
+    margin-bottom: -70px;
+}
+
+#contact-container::before {
+    height: 79%;
+}
+
+#contact-container h2 {
+    font-size: 0.8rem;
+    width: 230px;
+    text-align: center;
+    padding-top: 4px;
+    margin: 5px auto;
+}
+
+.contact {
+    display: flex;
+    padding: 0px 0px;
+    margin: 5px auto;
+    justify-content: center;
+    align-items: center;
+    height: 283px;
+    width: 160px;
+}
+
+label {
+    font-size: 0.5rem;
+}
+
+.contact input,
+.contact textarea {
+    width: 59%;
+    font-size: 0.5rem;
+    padding: 1px 9px;
+    border-radius: 4px;
+    margin: auto;
+    display: block;
+}

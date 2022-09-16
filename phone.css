@@ -1,0 +1,76 @@
+/*Navigation Bar*/
+.navbar {
+    flex-direction: column;
+    height: 150px;
+    position: relative;
+}
+
+.logo {
+    margin: 20px auto;
+    left: 0;
+}
+
+
+.list {
+    margin: 0;
+}
+
+
+
+/* Home Section  */
+#home::before {
+    height: 546px;
+}
+
+.heading {
+    width: 610px;
+    text-align: center;
+}
+
+
+
+
+/* Services Section  */
+#services {
+    flex-direction: column;
+}
+
+#services-container {
+    height: 1188px;
+    margin-top: 30px;
+
+}
+
+#services-container h2 {
+    margin-top: 70px;
+}
+
+.boxs {
+    margin: 20px auto;
+    width: 40%;
+}
+
+
+
+
+/* Clients Section  */
+
+#client-container {
+    height: 705px;
+}
+
+#client-container::before {
+    height: 701px;
+}
+
+#client {
+    flex-direction: column;
+
+}
+
+#client img {
+    margin: 11px 20px;
+}
+
+
+

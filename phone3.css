@@ -1,0 +1,56 @@
+/* Navigation bar  */
+
+
+.navbar {
+    position: relative;
+}
+
+
+
+/* Home Section  */
+
+#home h1 {
+    font-size: 1.5rem;
+    width: 56%;
+}
+
+.heading {
+    width: 50%;
+    font-size: 1rem;
+    margin: 24px auto;
+}
+
+#btn {
+    width: 131px;
+    padding: 8px 20px;
+    font-size: 1rem;
+
+}
+
+
+/* Services Section  */
+
+#services-container {
+    height: 1400px;
+}
+
+
+/* Contact Section  */
+
+.contact input,
+.contact textarea {
+    width: 71%;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+
+/* Footer Section  */
+
+footer p {
+    width: 50%;
+    margin: auto;
+    font-size: 1rem;
+}

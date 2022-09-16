@@ -1,0 +1,305 @@
+/* All Items  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Navigation Bar*/
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.119);
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url("VD.jpg"); /*VD's Pic for Logo*/
+    background-repeat: no-repeat;
+}
+
+
+.list {
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+
+
+}
+
+.list-items a {
+    padding: 10px 30px;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+
+}
+
+.list-items a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+
+
+/* Home Section*/
+
+#home {
+    height: 335px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 1188px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+#home::before {
+    content: "";
+    background-image: url("section-back.jpg"); /*Home Section Background*/
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    height: 405px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+#home h1 {
+    font-family: 'Bree Serif', serif;
+    margin: 10px;
+    font-size: 3rem;
+}
+
+#home :nth-child(2) {
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+
+#home :nth-child(3) {
+    margin: 0px 10px;
+}
+
+#btn {
+    font-family: 'Bree Serif', serif;
+    margin: 25px 10px;
+    width: 160px;
+    padding: 15px 20px;
+    border-radius: 40px;
+    background-color: rgba(165, 42, 42, 0.41);
+    color: white;
+    font-size: 1.2rem;
+    border: solid 2px white;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Services Section  */
+
+
+#services-container {
+    height: 489px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#services-container h2 {
+    margin: 40px auto;
+    width: 271px;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#services {
+    display: flex;
+
+}
+
+.boxs h3 {
+    font-size: 1.8rem;
+    margin: 5px 0px;
+}
+
+.boxs p {
+    font-size: 1.2rem;
+}
+
+
+.boxs img {
+    width: 160px;
+}
+
+.boxs {
+    font-family: 'Bree Serif', serif;
+    border: solid 2px black;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+
+
+
+
+/* Client Section  */
+
+#client-container {
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    height: 340px;
+}
+
+
+#client-container::before {
+    content: "";
+    background-image: url("vegetable.jpg"); /*Clients Section Background*/
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    height: 340px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.3;
+
+}
+
+#client-container h2 {
+    text-align: center;
+    margin: 20px auto;
+    width: 261px;
+    margin-top: 50px;
+    padding-top: 30px;
+    font-size: 3rem;
+}
+
+#client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#client img {
+    width: 150px;
+    margin: 5px 20px;
+}
+
+
+
+/* Contact Section  */
+
+#contact-container {
+    font-family: 'Bree Serif', serif;
+    margin-top: 70px;
+    position: relative;
+    margin-bottom: 0;
+    height: 600px;
+}
+
+#contact-container h2 {
+    font-size: 3rem;
+    width: 230px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px auto;
+}
+
+#contact-container::before {
+    content: "";
+    background-image: url("contact-us.jpg"); /*Contact Section Background*/
+    background-position: center;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.contact {
+    display: flex;
+    padding: 5px 20px;
+    margin: 5px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.contact textarea {
+    padding: 20px 20px;
+
+}
+
+
+
+
+/* Footer section  */
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 30px;
+    margin: 0;
+}
+
+footer p {
+    width: 492px;
+    margin: auto;
+}
